@@ -1,5 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These are a pair of functions which cache the inverse of a matrix.
+## The reason for these functions is to obviate the need for a recalculation of the inverse
+## should the inverse be needed a second time for the same matrix
+
+## To use these functions:
+##     1) Create your "matrix" using makeCacheMatrix
+##     2) Calculate the inverse of your matrix by calling cacheSolve and passing
+##        the "matrix" created by the previous function as a parameter.
 
 ## This function creates a special "matrix" object that caches its inverse.
 
